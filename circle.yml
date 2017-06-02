@@ -2,6 +2,7 @@ deployment:
   production:
     branch: master
     commands:
+      - chmod u+x ./deploy_prod.sh
       - ./deploy_prod.sh
 
 test:
